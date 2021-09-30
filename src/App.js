@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Meals from "./components/Meals/Meals";
 import MealsDetail from "./components/MealsDetail/MealsDetail";
+import Messenger from "./components/Messenger/Messenger";
 import NotFound from "./components/NotFound/NotFound";
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route exact path="/about">
           <About />
+        </Route>
+        <Route exact path="/messenger">
+          <Messenger></Messenger>
         </Route>
         <Route path="*">
           <NotFound />

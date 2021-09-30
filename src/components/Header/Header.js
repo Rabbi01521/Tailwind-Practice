@@ -91,6 +91,13 @@ const Header = () => {
                 >
                   Meals
                 </NavLink>
+
+                <NavLink
+                  to="/about"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  About
+                </NavLink>
               </div>
             </div>
           </div>
@@ -114,6 +121,13 @@ const Header = () => {
             className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             Meals
+          </NavLink>
+
+          <NavLink
+            to="/about"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+          >
+            About
           </NavLink>
         </div>
       </div>
